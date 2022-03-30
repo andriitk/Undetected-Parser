@@ -130,6 +130,8 @@ def parse_links(blocks: list):
             url = block.find("a", class_="t-link").get('href')
             with open("links.txt", 'a+', encoding='utf-8') as f:
                 f.write(f"{url}\n")
+                return True
+         return False
 
 
 def main():
