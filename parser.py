@@ -13,7 +13,7 @@ URL = f"https://www.sravni.ru/banki/rating/kredity-fizicheskikh-lic/?ratingType=
 URL_0 = 'https://www.sravni.ru'
 
 
-# PATH = r'c:\Program Files (x86)\chromedriver.exe'
+# PATH = 'chromedriver.exe'
 # options = webdriver.ChromeOptions()
 # options.add_argument("--disable-blink-features=AutomationControlled")
 # options.add_argument(f"user-agent={user_agent}")
